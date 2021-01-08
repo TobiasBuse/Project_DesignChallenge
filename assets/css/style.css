@@ -1,0 +1,281 @@
+
+* {margin:0; padding:0}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logoheader {
+    width: 2%;
+    height: 2vh;
+    position: absolute;
+    position: fixed;
+}
+
+
+header h5 {
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 1.2em;
+}
+
+header h5 span {
+    font-size: 0.6em;
+    font-weight: lighter;
+}
+
+
+.section1 {
+    background: url(../img/ilustracion1.png) right/contain no-repeat;
+    margin-bottom: 10%;
+}
+
+
+
+/*Animation mit Männchen oben rechts*/
+.section1:hover {
+    background: url(../img/ilustracion_people.png) right/contain no-repeat;
+    transition-duration: 1s;
+}
+
+
+.section1:hover span:after {
+    background: url(../img/ilustracion1.png) right/contain no-repeat;
+    margin-bottom: 10%;
+    transition-duration: 1s;
+}
+
+
+
+.sectionh1 {
+    padding: 10% 4% 0 4%;
+    font-size: 5em;
+}
+
+
+.lineheight {
+    line-height: 30px;
+}
+
+.lineheight2 {
+    line-height: 55px;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10% 0 10%;
+}
+
+
+.paddingtopleft{
+    padding-left: 4%;
+    padding-top: 10%;
+}
+
+
+.paddingmidbottom {
+    padding-left: 4%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+
+.paddingright {
+    margin-right: 4%;
+}
+
+.paddingright {
+    padding-right: 0%;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+
+.flexcontainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30%;
+    line-height: 30px;
+}
+
+
+.number {
+    color: #dddddd;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+
+/*floatleft auf das Image*/
+.floatleft {
+    float: left;
+}
+
+
+/*floatright auf das Image*/
+.floatright {
+    float: right;
+}
+
+
+.imagesize3 {
+    width: 35%;
+    height: 50vh;
+}
+
+.objectfit {
+    object-fit: contain;
+}
+
+.divimagesize {
+    width: 5%;
+    height: 3vh;
+}
+
+
+.sectionh3 {
+    padding: 0 4% 8% 4%;
+    font-weight: lighter;
+}
+
+.sectionp {
+    padding: 0% 4% 0% 4%;
+    color: #ff3571;
+}
+
+
+.sizesection1 {
+    width: 100%;
+}
+
+
+.imagesize {
+    width: 100%;
+}
+
+
+.section2 {
+    margin-bottom: 10%;
+}
+
+
+.section3h1, .section5h1, .footerh1{
+    padding: 0% 4% 0 4%;
+    font-size: 3em;
+}
+
+.section3p, .section5p {
+    padding-left: 4%;
+}
+
+
+.imagesize2 {
+    width: 12%;
+    height: 6vh;
+}
+
+
+.section4 {
+    padding-left: 4%;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* Zeileneinschub einfügen bei 4 Textblöcken mit kleinem Icon links neben Text */
+
+main section:nth-of-type(3) div div p {
+    text-indent: 25px;
+}
+
+
+
+/*Footer*/
+
+.padding {
+    padding-bottom: 2%;
+}
+
+
+.paddingtop {
+    padding-top: 4%;
+}
+
+
+.logofooter {
+    width: 2%;
+    height: 3vh;
+}
+
+
+.sectionfooter {
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+
+
+.sectiongithub {
+    padding-left: 8%;
+}
+
+
+.github {
+    height: 5vh;
+    margin-left: 4%;
+    margin-top: -4%;
+}
+
+
+
+.input {
+    background-color: #FFF;
+    color: grey;
+    padding: 2%;
+    width: 25%;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 4%;
+    text-align: center;
+    box-shadow: 0 0 45px lightskyblue;
+}
+
+
+
+/*Animaton mit Hover-Effect und linear-gradient über dem Button*/
+
+.button {
+    background-color: #ff3571;
+    color: #FFF;
+    padding: 2%;
+    width: 12%;
+    font-size: 20px;
+    border-radius: 4%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    transition-duration: 0.5s;
+}
+
+
+
+.button:hover{
+    background: linear-gradient(to right, red, blue);
+  }
+
+  
+
+
+
+
+
+/* Assets:
+Font: Roboto
+Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
